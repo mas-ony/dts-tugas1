@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+
+body,html{
+  height:100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 65px;
+  color: white;
+  display: block;
+  float: left;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.logo {
+  width: 110px;
+  margin-top: 3px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-wrapper {
+  color: black;
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+
+.profile-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.profile {
+  float: left;
+}
+
+.profile-center {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-icon {
+  position: relative;
+}
+
+.profile-icon img {
+  border-radius: 50%;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+  text-align: left;
+}
+
+.text-contents span {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.clear {
+  clear: left;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #a9a9a9;
+  cursor: pointer;
+  box-shadow: 0 7px #dee7ec;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+input {
+  margin-bottom: 20px;
+  border: 1px solid #dee7ec;
+}
+
+textarea {
+  height: 100px;
+  margin-bottom: 20px;
+  border: 1px solid #dee7ec;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+.text-yellow {
+  color: #FFFF00;
+}
