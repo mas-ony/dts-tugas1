@@ -39,14 +39,20 @@
   }
   
   input {
-    width: 60%;
+    width: 40%;
   }
   
   textarea {
-    width: 60%;
+    width: 40%;
   }
   
-  .cb-slideshow h3 { font-size: 40px }
+  .hashtag {
+    display:inline;
+    vertical-align:bottom;
+    font-size: 40px
+  }
+  
+  .cb-slideshow h3 { font-size: 30px }
 }
 
 /* Untuk Smartphone */
