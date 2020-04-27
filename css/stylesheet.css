@@ -153,6 +153,7 @@ a {
 input {
   margin-bottom: 20px;
   border: 1px solid #dee7ec;
+  text-align: center;
 }
 
 textarea {
