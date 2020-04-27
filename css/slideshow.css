@@ -29,14 +29,17 @@
 
 .cb-slideshow li div { 
   position: absolute;
-  bottom: 5%;
-  left: 0px;
-  width: 100%;
+  bottom: 10%;
+  left: 25%;
+  width: 50%;
   text-align: center;
   opacity: 0;
-  color: #fff;
+  color: #ffffff;
   animation: titleAnimation 30s linear infinite 0s; 
-  color: white;
+  color: black;
+  background-color: #c0c0c0;
+  border-radius: 25px;
+  margin: 0 auto;
 }
 
 .cb-slideshow li:nth-child(1) span { 
